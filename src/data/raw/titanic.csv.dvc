@@ -1,0 +1,5 @@
+outs:
+- md5: ad3215e26517245de7b063c48bad9335
+  size: 57172
+  hash: md5
+  path: titanic.csv
