@@ -37,14 +37,10 @@ jupyter lab src/notebooks/laboratory_1.ipynb
 выводятся метрики **Accuracy** и **ROC-AUC**.
 
 ## Метрики (тестовая выборка, 80/20, random_state=42)
-- **Accuracy: 0.8212**
-- **ROC-AUC: 0.8555**
+
+![метрики](screenshots\metrics.png)
 
 ## DVC
 Датасет `src/data/raw/titanic.csv` добавлен под контроль версий DVC:
-```bash
-dvc add src/data/raw/titanic.csv
-git add src/data/raw/titanic.csv.dvc src/data/raw/.gitignore
-git commit -m "lab1: track titanic.csv with DVC"
-dvc status   # Data and pipelines are up to date
-```
+
+![dvc status](screenshots\dvc_status.png)
