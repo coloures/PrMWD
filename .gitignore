@@ -16,3 +16,8 @@ src/data/raw/**
 *.joblib
 *.pkl
 *.log
+
+# --- ЛР2: артефакты выполнения ноутбука (пересоздаются при запуске) ---
+src/reports/figures/*
+src/reports/*.csv
+src/reports/*.json
