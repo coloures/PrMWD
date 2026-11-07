@@ -8,8 +8,6 @@ joblib>=1.4
 jupyterlab>=4.0
 nbformat>=5.9
 nbclient>=0.10
-nbformat>=5.9
-nbclient>=0.10
 dvc>=3.55
 
 # --- ЛР3: продвинутые модели ML (бустинги, оптимизация, интерпретация) ---
@@ -18,5 +16,3 @@ lightgbm>=4.5
 catboost>=1.2
 optuna>=4.0
 shap>=0.46
-
-dvc>=3.55
