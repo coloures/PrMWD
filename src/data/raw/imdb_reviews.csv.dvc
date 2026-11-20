@@ -1,0 +1,5 @@
+outs:
+- md5: 7bf65c64b31608e5806d4e686c054fcc
+  size: 66187312
+  hash: md5
+  path: imdb_reviews.csv

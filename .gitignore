@@ -21,3 +21,6 @@ src/data/raw/**
 src/reports/figures/*
 src/reports/*.csv
 src/reports/*.json
+
+# --- ЛР4: кэш эмбеддингов и промежуточных признаков (пересоздаётся при запуске) ---
+src/data/interim/

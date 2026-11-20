@@ -1,0 +1,5 @@
+outs:
+- md5: 40ec481866001177b8cd4cb0df92924f
+  size: 134300434
+  hash: md5
+  path: glove-wiki-gigaword-100.gz
