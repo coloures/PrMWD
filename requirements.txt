@@ -19,10 +19,11 @@ shap>=0.46
 
 # --- ЛР4: нейронные сети, эмбеддинги, снижение размерности ---
 # torch/transformers/sentence-transformers — нейросетевые эмбеддинги текста;
+# gensim — предобученные статические word-векторы через gensim.downloader;
 # umap-learn (numba) — нелинейное снижение размерности для визуализации.
-# Примечание: gensim под Python 3.14 не собирается (нет wheel-файлов), поэтому
-# предобученные word-векторы GloVe загружаются напрямую из зеркала gensim-data.
+# ВАЖНО: под Python 3.14 у gensim нет wheel-файлов, поэтому проект использует Python 3.12.
 torch>=2.6
 transformers>=4.41
 sentence-transformers>=4.0
+gensim>=4.3
 umap-learn>=0.5
